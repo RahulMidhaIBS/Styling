@@ -3,7 +3,37 @@
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content></content>
+					<content>
+						<Table>
+							<columns>
+								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
+									<Text text = "Name"></Text>
+								</Column>
+								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
+									<Text text = "Age"></Text>
+								</Column>
+							</columns>
+							
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text wrapping = "true" text = "Rahul"></Text>
+									</cells>
+									<cells>
+										<Text wrapping = "true" text = "23"></Text>
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text wrapping = "true" text = "Shivangi"></Text>
+									</cells>
+									<cells>
+										<Text wrapping = "true" text = "22"></Text>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</content>
 				</Page>
 			</pages>
 		</App>
