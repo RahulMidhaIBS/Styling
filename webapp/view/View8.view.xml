@@ -12,23 +12,42 @@
 								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
 									<Text text = "Age"></Text>
 								</Column>
+								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
+									<Text text = "Organisation"></Text>
+								</Column>
+								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
+									<Text text = "Domain"></Text>
+								</Column>
 							</columns>
 							
 							<items>
 								<ColumnListItem>
 									<cells>
-										<Text wrapping = "true" text = "Rahul"></Text>
+										<Text wrapping = "true" text = "Rahul Midha"></Text>
 									</cells>
 									<cells>
 										<Text wrapping = "true" text = "23"></Text>
 									</cells>
+									<cells>
+										<Text wrapping = "true" text = "IBS"></Text>
+									</cells>
+									<cells>
+										<Text wrapping = "true" text = "UI5"></Text>
+									</cells>
 								</ColumnListItem>
+								
 								<ColumnListItem>
 									<cells>
-										<Text wrapping = "true" text = "Shivangi"></Text>
+										<Text wrapping = "true" text = "Shivangi Kochhar"></Text>
 									</cells>
 									<cells>
 										<Text wrapping = "true" text = "22"></Text>
+									</cells>
+									<cells>
+										<Text wrapping = "true" text = "IBS"></Text>
+									</cells>
+									<cells>
+										<Text wrapping = "true" text = "BRF+"></Text>
 									</cells>
 								</ColumnListItem>
 							</items>
