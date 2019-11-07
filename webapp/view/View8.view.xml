@@ -4,7 +4,7 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-						<Table>
+						<Table id = "idTable" items = "{path : 'empdetails>/Employee'}">
 							<columns>
 								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
 									<Text text = "Name"></Text>
@@ -23,31 +23,16 @@
 							<items>
 								<ColumnListItem>
 									<cells>
-										<Text wrapping = "true" text = "Rahul Midha"></Text>
+										<Text wrapping = "true" text = "{empdetails>name}"></Text>
 									</cells>
 									<cells>
-										<Text wrapping = "true" text = "23"></Text>
+										<Text wrapping = "true" text = "{empdetails>age}"></Text>
 									</cells>
 									<cells>
-										<Text wrapping = "true" text = "IBS"></Text>
+										<Text wrapping = "true" text = "{empdetails>org}"></Text>
 									</cells>
 									<cells>
-										<Text wrapping = "true" text = "UI5"></Text>
-									</cells>
-								</ColumnListItem>
-								
-								<ColumnListItem>
-									<cells>
-										<Text wrapping = "true" text = "Shivangi Kochhar"></Text>
-									</cells>
-									<cells>
-										<Text wrapping = "true" text = "22"></Text>
-									</cells>
-									<cells>
-										<Text wrapping = "true" text = "IBS"></Text>
-									</cells>
-									<cells>
-										<Text wrapping = "true" text = "BRF+"></Text>
+										<Text wrapping = "true" text = "{empdetails>dom}"></Text>
 									</cells>
 								</ColumnListItem>
 							</items>

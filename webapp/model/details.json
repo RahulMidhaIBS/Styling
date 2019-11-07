@@ -1,0 +1,21 @@
+{
+	"Employee" : [
+		{
+			"name" : "Rahul Midha",
+			"age" : "23",
+			"org" : "IBS",
+			"dom" : "UI5"
+		},
+		{
+			"name" : "Shivangi Kocchar",
+			"age" : "22",
+			"org" : "IBS",
+			"dom" : "UI5"
+		},
+		{
+			"name" : "Pranav Garg",
+			"age" : "23",
+			"org" : "IBS",
+			"dom" : "UI5"
+		}]
+}
