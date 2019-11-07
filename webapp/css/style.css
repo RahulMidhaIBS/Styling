@@ -5,7 +5,10 @@
 	transform: scale(1);
 }*/
 
-img:hover {
-    width: 300px !important;
-    height: 200px !important;
+.txtgrp1{
+	color : red !important;
+	font-weight : bold !important;
+}
+.txtgrp2{
+	color : green !important;
 }

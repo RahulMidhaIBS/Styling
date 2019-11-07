@@ -7,32 +7,32 @@
 						<Table id = "idTable" items = "{path : 'empdetails>/Employee'}">
 							<columns>
 								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
-									<Text text = "Name"></Text>
+									<Text text = "Name" class = "txtgrp1"></Text>
 								</Column>
 								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
-									<Text text = "Age"></Text>
+									<Text text = "Age" class = "txtgrp1"></Text>
 								</Column>
 								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
-									<Text text = "Organisation"></Text>
+									<Text text = "Organisation" class = "txtgrp1"></Text>
 								</Column>
 								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
-									<Text text = "Domain"></Text>
+									<Text text = "Domain" class = "txtgrp1"></Text>
 								</Column>
 							</columns>
 							
 							<items>
 								<ColumnListItem>
 									<cells>
-										<Text wrapping = "true" text = "{empdetails>name}"></Text>
+										<Text wrapping = "true" text = "{empdetails>name}" class = "txtgrp2"></Text>
 									</cells>
 									<cells>
-										<Text wrapping = "true" text = "{empdetails>age}"></Text>
+										<Text wrapping = "true" text = "{empdetails>age}" class = "txtgrp2"></Text>
 									</cells>
 									<cells>
-										<Text wrapping = "true" text = "{empdetails>org}"></Text>
+										<Text wrapping = "true" text = "{empdetails>org}" class = "txtgrp2"></Text>
 									</cells>
 									<cells>
-										<Text wrapping = "true" text = "{empdetails>dom}"></Text>
+										<Text wrapping = "true" text = "{empdetails>dom}" class = "txtgrp2"></Text>
 									</cells>
 								</ColumnListItem>
 							</items>
