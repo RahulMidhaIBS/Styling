@@ -18,6 +18,9 @@
 								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
 									<Text text = "Domain" class = "txtgrp1"></Text>
 								</Column>
+								<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
+									<Text text = "Date" class = "txtgrp1"></Text>
+								</Column>
 							</columns>
 							
 							<items>
@@ -33,6 +36,9 @@
 									</cells>
 									<cells>
 										<Text wrapping = "true" text = "{empdetails>dom}" class = "txtgrp2"></Text>
+									</cells>
+									<cells>
+										<Text wrapping = "true" text = "{empdetails>date, formatter : '.test.fDate'}" class = "txtgrp2"></Text>
 									</cells>
 								</ColumnListItem>
 							</items>
